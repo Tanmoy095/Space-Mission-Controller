@@ -1,0 +1,31 @@
+{
+  "name": "nasa-project-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client",
+    "install": "npm install - server && npm install - client",
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "watch": "npm run server & npm run client",
+    "test": "npm run test --prefix server && npm run test --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanmoy095/Nasa-Project-MERN-STACK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanmoy095/Nasa-Project-MERN-STACK/issues"
+  },
+  "homepage": "https://github.com/Tanmoy095/Nasa-Project-MERN-STACK#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "client": "^0.0.1",
+    "server": "^1.0.37"
+  }
+}
