@@ -12,7 +12,7 @@ describe("Test /GET/launches", () => {
       .expect(200);
   });
 });
-describe("Test /Post/launches", () => {
+describe("Test /POST/launches", () => {
   const completeLaunchData = {
     mission: "Keplar Exploration aaaa",
     rocket: "Explorer IS11111",
